@@ -17,7 +17,7 @@ We've provided you with a console that you can use to test your code. To enter a
 #### Build the following instance and class methods for `Musical`
 - `Musical` should initialize with a name and a premiere city
 - `Musical` should respond to `Musical#name` and `Musical#premiere_city`
-- `Musical` should be able to change it's name with an accessor, but not its premiere city
+- `Musical` should be able to change its name with an accessor, but not its premiere city
 - `Musical` should have a method `Musical.all` that returns all the instances of `Musical`
 - `Musical` should have a method `Musical.all_introductions` that puts out a message of `"Hello, we are {insert musical name here} and we premiered in {insert city here}"` for each musical
 
