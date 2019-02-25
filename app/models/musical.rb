@@ -35,13 +35,23 @@ class Musical
 
   def theaters
     theater_list = []
-    Performance.all.each do |performance_instance|
+    self.performances.each do |performance_instance|
       if performance_instance.musical.name == self.name
         theater_list << performance_instance.theater
       end
     end
     theater_list
   end
+
+
+    # theater_list = []
+    # Performance.all.each do |performance_instance|
+    #   if performance_instance.musical.name == self.name
+    #     theater_list << performance_instance.theater
+    #   end
+    # end
+    # theater_list
+
 
 
 
